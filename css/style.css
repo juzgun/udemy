@@ -303,3 +303,23 @@ h2.title {
     text-align: center;
     padding-top: 30px;
 }
+
+.footer {
+    min-height: 165px;
+    background-color: black;
+}
+
+.footer .footer_links, .footer .footer_call_us {
+    color: #888888;
+    font-family: "Roboto - Light";
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 55px;
+    text-decoration: none;
+}
+
+.footer .footer_call_us {
+    padding-top: 0;
+}
