@@ -11,6 +11,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -177,4 +178,25 @@ h2.title {
     font-family: "Roboto - Black";
     font-size: 30px;
     font-weight: 400;
+}
+
+.optimization .optimization_text {
+    margin: 25px 0 0 391px;
+    color: #4a4a4a;
+    font-family: "Roboto - Light";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.optimization .optimization_text span {
+    font-weight: bold;
+    font-family: "Roboto - Bold";
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
 }
